@@ -20,6 +20,7 @@ import {
 import { ArrowRight } from "lucide-react";
 import WeatherNews from "./Components/News/WeatherNews";
 
+
 export default function Home() {
   const { setActiveCityCoords } = useGlobalContextUpdate();
 
@@ -51,9 +52,9 @@ export default function Home() {
           <div className="mapbox-con mt-4 flex gap-4">
             {/* <Mapbox /> */}
             <div className="states flex flex-col gap-3 flex-1">
-              <h2 className="flex items-center gap-2 font-medium">
+              <h1 className="flex items-center gap-2 ">
                 Top Large Cities
-              </h2>
+              </h1>
               <div className="flex flex-col gap-4">
                 {defaultStates.map((state, index) => {
                   return (
@@ -83,6 +84,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* <SearchPage/> */}
       {/* weather news  */}
       {/* <WeatherNews /> */}
       {/* close */}

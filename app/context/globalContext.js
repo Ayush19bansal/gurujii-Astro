@@ -15,7 +15,7 @@ export const GlobalContextProvider = ({ children }) => {
   const [articles, setArticles] = useState([]);
   const [totalResults, setTotalResults] = useState(0)
   const [activeCityCoords, setActiveCityCoords] = useState([
-    51.752021, -1.257726,
+    26.907524, 75.739639,
   ]);
 
   const [airQuality, setAirQuality] = useState({});
